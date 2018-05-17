@@ -1,0 +1,4 @@
+http://wiki.ubuntuusers.de/ubuntuusers/LaTeX-Beamer
+
+Beamer-Doku:
+http://ftp.fau.de/ctan/macros/latex/contrib/beamer/doc/beameruserguide.pdf

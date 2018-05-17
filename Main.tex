@@ -1,0 +1,88 @@
+\documentclass[12pt,utf8]{beamer}
+
+% Gute Einführung zu LaTeX-Beamer: http://www2.informatik.hu-berlin.de/~mischulz/beamer.html
+
+%-----PARAMETERS-----
+
+%Wichtige Standard Pakete!
+\usepackage[ngerman]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+
+%Für den Header notwendig!
+\usepackage[percent]{overpic}
+
+%Einbinden des Themes
+\input{beamerthemeTU.sty}
+
+%HintergrundLogo
+%\setbeamertemplate{background}{\tikz[remember picture, overlay]\node[opacity=0.4] at (current page.center) {\includegraphics[width=2cm]{res/briar_logo_large.png}};}
+
+%Standard Angaben
+\title{Brumble und Briar}
+\subtitle{Der (vielleicht) nächste Schritt in der Messeging-Evolution}
+
+\author[C. Parnitzke]{Christoph Parnitzke}
+\institute[FOSS AG - FbI]{Free and Open Source Software AG\\ Fachbereich Informatik}
+
+\date{\today}
+
+%-----IMPLEMENTATION-----
+
+\begin{document}
+
+\begin{frame}
+	\titlepage
+\end{frame}
+
+\begin{frame}[TU]{Inhaltsverzeichnis}
+	\tableofcontents[hideallsubsections]
+\end{frame}
+
+\section{Motivation}
+
+\begin{frame}{Inhaltsverzeichnis}
+	\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\input{Motivation.tex}
+
+%//end of section "Motivation"
+
+\section{Konzept}
+
+\begin{frame}{Inhaltsverzeichnis}
+	\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\input{Konzept.tex}
+
+%\\end of section "Konzept"
+
+\section{Bramble}
+
+\begin{frame}{Inhaltsverzeichnis}
+	\tableofcontents[currentsection, hideallsubsections]
+\end{frame}
+
+\input{Bramble.tex}
+
+%\\end of section "Bramble"
+
+\section{Briar}
+
+\input{Briar.tex}
+
+%\\end of section "Briar"
+
+\begin{frame}
+\vfill
+\begin{center}\begin{Huge}Vielen Dank \\
+für eure Aufmerksamkeit. \\[50pt]
+**Free Discussion**\end{Huge}\vfill
+\end{center}
+\vfill
+\end{frame}
+
+\end{document}
